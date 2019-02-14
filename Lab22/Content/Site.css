@@ -1,0 +1,92 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    font-family: 'Vollkorn', serif;
+    font-size: 24px;
+    background: url('../Images/CloudsBckGrnd-Coffe.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Vollkorn', serif;
+    font-size: 24px;
+}
+
+
+footer {
+    text-shadow: 2px 2px darkgrey;
+    position: fixed;
+    bottom: 0;
+    opacity: .5;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.PaddingHeader {
+    padding-top: 1em;
+}
+
+.RegBox {
+    line-height: 1.6;
+    background-color: lightgray;
+    opacity: 0.9;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
+.CenterRegBox {
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactRegBox {
+    width: 70%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Welcome {
+    text-align: center;
+}
+
+#Registered {
+    text-align: center;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+textarea {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0 auto;
+    width: 75%;
+}
